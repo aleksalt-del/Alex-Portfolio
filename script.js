@@ -16,6 +16,18 @@ if (year) {
   year.textContent = new Date().getFullYear();
 }
 
+if (window.history && window.history.scrollRestoration) {
+  window.history.scrollRestoration = 'manual';
+}
+
+window.addEventListener('load', () => {
+  if (window.location.hash) {
+    history.replaceState(null, '', window.location.pathname + window.location.search);
+  }
+
+  window.scrollTo(0, 0);
+});
+
 if (navToggle && navLinks) {
   navToggle.addEventListener('click', () => {
     const isOpen = navLinks.classList.toggle('open');
