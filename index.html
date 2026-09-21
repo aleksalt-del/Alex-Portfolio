@@ -1,55 +1,402 @@
-<a href="#contact">Contact</a>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Alex Portfolio — IT Staff, video editor, social media moderator, and aspiring programmer."
+    />
+    <title>Alex | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+          <a class="brand" href="#top" aria-label="Alex home">
+            <span class="brand-mark">A</span>
+            <span>Alex</span>
+          </a>
 
-          <a href="mailto:alexisjralcazaren@gmail.com?subject=Hire%20Me" class="button button-small">Hire Me</a>
+          <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#cv">CV</a>
+            <a href="#contact">Contact</a>
+          </div>
+
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alexisjralcazaren@gmail.com&su=Hire%20Me" target="_blank" rel="noreferrer" class="button button-small">Hire Me</a>
-</nav>
-</header>
+        </nav>
+      </header>
 
-@@ -59,18 +59,22 @@ <h1>
+      <main id="top">
+        <section class="hero container">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">IT Staff • Video Editor • Social Media Moderator</p>
+            <h1>
+              I create digital experiences that are
+              <span class="gradient-text">useful, engaging, and memorable.</span>
+            </h1>
+            <p class="lead">
+              I am Alex, an IT professional with a strong interest in social media, content
+              creation, video editing, and programming. I combine technical support know-how with
+              creative storytelling to help brands and audiences connect.
+            </p>
 
-<div class="hero-actions">
-<a href="#portfolio" class="button">View Portfolio</a>
-              <a href="#cv" class="button button-secondary">Download CV</a>
+            <div class="hero-actions">
+              <a href="#portfolio" class="button">View Portfolio</a>
               <a href="#cv" class="button button-secondary">View CV</a>
-</div>
+            </div>
 
-<ul class="stat-row" aria-label="Highlights">
-<li>
-                <strong>2+</strong>
+            <ul class="stat-row" aria-label="Highlights">
+              <li>
                 <strong>1+</strong>
-<span>Years of digital work</span>
-</li>
-<li>
-<strong>20+</strong>
-<span>Short-form videos edited</span>
-</li>
+                <span>Years of digital work</span>
+              </li>
+              <li>
+                <strong>20+</strong>
+                <span>Short-form videos edited</span>
+              </li>
               <li>
                 <strong>2+</strong>
                 <span>Years of Tech Support</span>
               </li>
-</ul>
-</div>
+            </ul>
+          </div>
 
-@@ -253,6 +257,11 @@ <h3>Office Tools</h3>
-<span>MS Office</span>
-</div>
+          <div class="hero-visual reveal">
+            <div class="profile-card">
+              <div class="avatar-wrap">
+                <div class="avatar">
+                  <img src="profile.jpg" alt="Alex portrait" />
+                </div>
+              </div>
+              <div class="profile-info">
+                <p class="status">Available for freelance, part-time & full-time roles</p>
+                <h2>Alexis Alcazaren Jr.</h2>
+                <div class="tags">
+                  <span>IT Support</span>
+                  <span>Video Editing</span>
+                  <span>Programming</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section container">
+          <div class="section-header reveal">
+            <p class="eyebrow">About Me</p>
+            <h2>Creative problem-solver with a technical mindset.</h2>
+          </div>
+
+          <div class="about-grid reveal">
+            <div class="about-card">
+              <p>
+                I currently work as an IT Staff member, where I help maintain systems, solve user
+                issues, and support efficient day-to-day operations. My experience in IT has sharpened
+                my problem-solving, communication, and adaptability.
+              </p>
+            </div>
+            <div class="about-card">
+              <p>
+                Outside work, I create short-form video edits for TikTok and social media content,
+                helping ideas become polished, attention-grabbing content. I enjoy combining trend
+                awareness, visual storytelling, and fast execution.
+              </p>
+            </div>
+            <div class="about-card">
+              <p>
+                I am also pursuing programming and digital media skills to grow into a role that blends
+                technology, content strategy, and online engagement. I am passionate about building a
+                career where creative thinking and technical capability work together.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" class="section section-alt">
+          <div class="container">
+            <div class="section-header reveal">
+              <p class="eyebrow">Skills</p>
+              <h2>What I bring to the table.</h2>
+            </div>
+
+            <div class="skills-grid reveal">
+              <div class="skill-box">
+                <h3>IT & Operations</h3>
+                <ul>
+                  <li>Technical support</li>
+                  <li>Systems troubleshooting</li>
+                  <li>Documentation & workflow support</li>
+                  <li>Problem-solving and user assistance</li>
+                </ul>
+              </div>
+              <div class="skill-box">
+                <h3>Video Editing</h3>
+                <ul>
+                  <li>TikTok short-form content</li>
+                  <li>Captions, transitions, text overlays</li>
+                  <li>Trend-based edits</li>
+                  <li>Fast content turnaround</li>
+                </ul>
+              </div>
+              <div class="skill-box">
+                <h3>Social Media</h3>
+                <ul>
+                  <li>Content planning</li>
+                  <li>Audience engagement</li>
+                  <li>Community moderation</li>
+                  <li>Brand consistency</li>
+                </ul>
+              </div>
+              <div class="skill-box">
+                <h3>Programming</h3>
+                <ul>
+                  <li>HTML / CSS / JavaScript</li>
+                  <li>Web basics</li>
+                  <li>Creative digital projects</li>
+                  <li>Continuous learning mindset</li>
+                </ul>
+              </div>
+
+              <div class="skill-box">
+                <h3>Digital Marketing</h3>
+                <ul>
+                  <li>Brand promotion</li>
+                  <li>Content strategy</li>
+                  <li>Audience-focused campaigns</li>
+                  <li>Social media growth support</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="tools" class="section section-alt">
+          <div class="container">
+            <div class="section-header reveal">
+              <p class="eyebrow">Tools</p>
+              <h2>Platforms and software I use.</h2>
+            </div>
+
+            <div class="tool-group reveal">
+              <h3>Editing Tools</h3>
+              <div class="tool-grid">
+                <div class="tool-card">
+                  <img class="tool-logo" src="canva.png" alt="Canva logo" />
+                  <span>Canva</span>
+                </div>
+
+                <div class="tool-card">
+                  <img class="tool-logo" src="capcut.jpg" alt="CapCut logo" />
+                  <span>CapCut</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="tool-group reveal">
+              <h3>AI Tools</h3>
+              <div class="tool-grid">
+                <div class="tool-card">
+                  <img class="tool-logo" src="chatgpt.png" alt="ChatGPT logo" />
+                  <span>ChatGPT</span>
+                </div>
+
+                <div class="tool-card">
+                  <img class="tool-logo" src="claude.png" alt="Claude logo" />
+                  <span>Claude AI</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="tool-group reveal">
+              <h3>Programming Tools</h3>
+              <div class="tool-grid">
+                <div class="tool-card">
+                  <img class="tool-logo" src="html.png" alt="HTML logo" />
+                  <span>HTML</span>
+                </div>
+
+                <div class="tool-card">
+                  <img class="tool-logo" src="css.jpg" alt="CSS logo" />
+                  <span>CSS</span>
+                </div>
+
+                <div class="tool-card">
+                  <img class="tool-logo" src="java.png" alt="Java logo" />
+                  <span>Java</span>
+                </div>
+
+                <div class="tool-card">
+                  <img class="tool-logo" src="python.png" alt="Python logo" />
+                  <span>Python</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="tool-group reveal">
+              <h3>Office Tools</h3>
+              <div class="tool-grid">
+                <div class="tool-card">
+                  <img class="tool-logo" src="ms.png" alt="Word logo" />
+                  <span>MS Office</span>
+                </div>
 
                 <div class="tool-card">
                   <img class="tool-logo" src="workspace.jpg" alt="Workspace logo" />
                   <span>Google Workspace</span>
                 </div>
 
-<div class="tool-card">
-<img class="tool-logo" src="salesforce.png" alt="Salesforce logo" />
-<span>Salesforce</span>
-@@ -388,9 +397,22 @@ <h2>Professional background.</h2>
-<span class="timeline-date">Current</span>
-<h3>IT Staff</h3>
-<p>
-                    Supporting daily IT operations through technical troubleshooting, system and network support, 
-                    and maintenance of ICT equipment. Also manage the mall’s official Facebook page 
-                    by creating and publishing promotional materials, event announcements, and public advisories.
+                <div class="tool-card">
+                  <img class="tool-logo" src="salesforce.png" alt="Salesforce logo" />
+                  <span>Salesforce</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="portfolio" class="section container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Samples of short-form content for TikTok.</h2>
+          </div>
+
+          <div class="portfolio-grid reveal">
+            <article class="project-card project-one">
+              <div class="project-thumb">
+                <span class="project-badge">Dr.Flash Steamer</span>
+                <div class="phone-screen phone-screen-one">
+                  <video
+                    class="video-preview preview-one"
+                    src="video-1.mp4"
+                    muted
+                    loop
+                    autoplay
+                    playsinline
+                    preload="auto"
+                  ></video>
+                  <button class="video-play-toggle" type="button" aria-label="Play preview video">▶</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card project-two">
+              <div class="project-thumb">
+                <span class="project-badge">Pet Pillows</span>
+                <div class="phone-screen phone-screen-two">
+                  <video
+                    class="video-preview preview-two"
+                    src="video-2.mp4"
+                    muted
+                    loop
+                    autoplay
+                    playsinline
+                    preload="auto"
+                  ></video>
+                  <button class="video-play-toggle" type="button" aria-label="Play preview video">▶</button>
+                </div>
+              </div>
+            </article>
+
+           <article class="project-card project-three">
+              <div class="project-thumb">
+                <span class="project-badge">Purple moutwash</span>
+                <div class="phone-screen phone-screen-three">
+                  <video
+                    class="video-preview preview-three"
+                    src="video-3.mp4"
+                    muted
+                    loop
+                    autoplay
+                    playsinline
+                    preload="auto"
+                  ></video>
+                  <button class="video-play-toggle" type="button" aria-label="Play preview video">▶</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <div class="video-overlay" id="videoOverlay" aria-hidden="true">
+          <div class="video-overlay-panel">
+            <button class="video-overlay-close" type="button" aria-label="Close video">×</button>
+            <video class="video-overlay-video" playsinline controls preload="auto"></video>
+          </div>
+        </div>
+
+        <div class="image-overlay" id="imageOverlay" aria-hidden="true">
+          <div class="image-overlay-panel">
+            <button class="image-overlay-close" type="button" aria-label="Close image">×</button>
+            <img class="image-overlay-image" src="" alt="Expanded design preview" />
+          </div>
+        </div>
+
+        <section id="designs" class="section section-alt">
+          <div class="container">
+            <div class="section-header reveal">
+              <p class="eyebrow">Digital Designs</p>
+              <h2>Social Media Graphic Designs for Public Material Posting.</h2>
+            </div>
+
+            <div class="design-grid reveal">
+              <article class="design-card" data-image="img1.jpg">
+                <div class="design-art design-art-one">
+                  <img src="img1.jpg" alt="Campaign poster design preview" />
+                </div>
+              </article>
+
+              <article class="design-card" data-image="img2.png">
+                <div class="design-art design-art-two">
+                  <img src="img2.png" alt="Social graphic design preview" />
+                </div>
+              </article>
+
+              <article class="design-card" data-image="img3.jpg">
+                <div class="design-art design-art-three">
+                  <img src="img3.jpg" alt="Brand visual design preview" />
+                </div>
+              </article>
+
+              <article class="design-card" data-image="img4.png">
+                <div class="design-art design-art-four">
+                  <img src="img4.png" alt="Brand visual design preview" />
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="cv" class="section section-alt">
+          <div class="container">
+            <div class="section-header reveal">
+              <p class="eyebrow">CV</p>
+              <h2>Professional background.</h2>
+            </div>
+
+            <div class="timeline reveal">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">Current</span>
+                  <h3>IT Staff</h3>
+                  <p>
                     Handle technical support for employees by troubleshooting hardware, software, and network problems, 
                     installing and maintaining computer systems and office ICT equipment, 
                     supporting the Admin Department with data entry, report preparation, 
@@ -66,51 +413,74 @@
                   <h3>TikTok Video Editor Freelance</h3>
                   <p>
                     Using CapCut to trim, compile, and polish footage into sub-1-minute TikTok videos that promote products, with captions and transitions built for fast audience engagement.
-</p>
-</div>
-</div>
-@@ -399,35 +421,32 @@ <h3>IT Staff</h3>
-<div class="timeline-dot"></div>
-<div class="timeline-content">
-<span class="timeline-date">Freelance / Side Projects</span>
-                  <h3>Short-form Video Editor</h3>
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">Freelance / Side Projects</span>
                   <h3>Data Entry Freelance</h3>
-<p>
-                    Using CapCut to trim, compile, and polish footage into 
-                    sub-1-minute TikTok videos that promote products, 
-                    with captions and transitions built for fast audience engagement.
+                  <p>
                     Supported the client's administrative needs by researching and organizing project data, and managing accurate 
                     data entry through Google Workspace and Salesforce to keep documentation and operations on track.
-</p>
-</div>
-</div>
+                  </p>
+                </div>
+              </div>
 
-<div class="timeline-item">
-<div class="timeline-dot"></div>
-<div class="timeline-content">
-                  <span class="timeline-date">Emerging 1</span>
-                  <h3>Social Media & Programmer</h3>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
                   <span class="timeline-date">BPO Experience</span>
                   <h3>Account Executive</h3>
-<p>
-                    Building a TikTok affiliate account, 
-                    creating product-focused content aimed at driving engagement and conversions through short-form video.
+                  <p>
                     Received calls and provided clear information about insurance plans, including coverage details and benefits, while evaluating client eligibility and confirming qualifications based on set criteria to support accurate and customer-focused service.
-</p>
-</div>
-</div>
+                  </p>
+                </div>
+              </div>
 
-<div class="timeline-item">
-<div class="timeline-dot"></div>
-<div class="timeline-content">
-                  <span class="timeline-date">Emerging 2</span>
-                  <h3>Programming</h3>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
                   <span class="timeline-date">BPO Experience</span>
                   <h3>Technical Support Representative</h3>
-<p>
-                    Building a website for a company's advertising and promotional needs, 
-                    applying web development skills to support their online presence and marketing efforts.
+                  <p>
                     Managed high-call-volume inbound support for customers in the United States (EST), provided step-by-step technical assistance for installing internet modems and cable boxes, diagnosed and fixed service issues to maintain customer satisfaction and continuity, handled billing questions and made account adjustments as needed, and promoted relevant products and services to match customer needs and support sales goals.
-</p>
-</div>
-</div>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-actions reveal">
+              <a href="Alcazaren_Resume.pdf" download class="button">Request CV</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+          <div class="container contact-box reveal">
+            <div>
+              <p class="eyebrow">Contact</p>
+              <h2>Let’s build something impactful together.</h2>
+            </div>
+
+            <div class="contact-links">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alexisjralcazaren@gmail.com" target="_blank" rel="noreferrer">Email Me</a>
+              <a href="https://www.linkedin.com/in/alexis-alcazaren-019879243/?skipRedirect=true" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://www.tiktok.com/@leks_findss" target="_blank" rel="noreferrer">TikTok</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <p>© <span id="year"></span> Alex Portfolio</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
